@@ -45,7 +45,7 @@ namespace Project_1
 
             string retirementYears;
 
-            if (userAge / 2 == 0)
+            if (userAge % 2 == 0)
             {
                 retirementYears = "7 years";
             }
